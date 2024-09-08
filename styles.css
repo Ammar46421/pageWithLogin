@@ -1,0 +1,157 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.product-form, .product-list {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-form h2, .product-list h2 {
+    margin-bottom: 15px;
+}
+
+.product-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.product-form input, .product-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.product-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-form button:hover {
+    background-color: #0056b3;
+}
+
+.product-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-list li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* styles.css */
+/* Previous CSS remains the same */
+
+.product-list img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+/* styles.css */
+
+
+#addProductLinkSection {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#addProductLinkSection a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#addProductLinkSection a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* styles.css */
+/* Previous CSS remains the same */
+
+.auth-form {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form h2 {
+    margin-bottom: 15px;
+}
+
+.auth-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.auth-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-form button:hover {
+    background-color: #0056b3;
+}
+
+.auth-form p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.auth-form a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.auth-form a:hover {
+    text-decoration: underline;
+}
