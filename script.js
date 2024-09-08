@@ -1,5 +1,5 @@
 // script.js
-document.getElementById('productForm').addEventListener('submit', function(event) {
+document.getElementById('productForm').addEventListener('submit', function (event) {
     event.preventDefault();
 
     // Get product details from the form
@@ -7,11 +7,11 @@ document.getElementById('productForm').addEventListener('submit', function(event
     const price = document.getElementById('productPrice').value;
     const description = document.getElementById('productDescription').value;
     const imageInput = document.getElementById('productImage');
-    
+
     // Check if an image is selected
     if (imageInput.files && imageInput.files[0]) {
         const reader = new FileReader();
-        reader.onload = function(e) {
+        reader.onload = function (e) {
             const image = e.target.result;
 
             // Create a product object
@@ -65,7 +65,7 @@ function displayProducts() {
 }
 
 // Function to show the form again
-document.getElementById('showProductForm').addEventListener('click', function(event) {
+document.getElementById('showProductForm').addEventListener('click', function (event) {
     event.preventDefault();
     document.getElementById('productFormSection').style.display = 'block';
     document.getElementById('addProductLinkSection').style.display = 'none';
