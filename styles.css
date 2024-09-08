@@ -14,7 +14,8 @@ header {
     text-align: center;
 }
 
-.product-form, .product-list {
+.product-form,
+.product-list {
     margin: 20px auto;
     padding: 20px;
     max-width: 500px;
@@ -23,7 +24,8 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.product-form h2, .product-list h2 {
+.product-form h2,
+.product-list h2 {
     margin-bottom: 15px;
 }
 
@@ -32,7 +34,8 @@ header {
     margin: 10px 0 5px;
 }
 
-.product-form input, .product-form textarea {
+.product-form input,
+.product-form textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
